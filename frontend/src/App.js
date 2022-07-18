@@ -68,7 +68,7 @@ function App() {
     <Router>
       <Header/>
       {isAuthenticated && <UserOptions user = {user}/>}
-      <Route exact path = "/home" component= {Home} />
+      <Route exact path = "/" component= {Home} />
       <Route exact path= '/about' component={About}/>
       <Route exact path = '/contactus' component={Contact}/>
       <Route exact path = "/product/:id" component= {ProductDetails} />

@@ -20,7 +20,7 @@ const header = () => {
     link2Text = "Products"
     link3Text = "About"
     link4Text = "ContactUs"
-    link1Url = "/home"
+    link1Url = "/"
     link2Url = "/products"
     link3Url = "/about"
     link4Url = "/contactus"
