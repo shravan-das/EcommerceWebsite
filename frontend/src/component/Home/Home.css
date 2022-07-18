@@ -1,0 +1,152 @@
+.banner{
+    background-image: url("../../images/bc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmin;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+.banner > h1{
+    margin: 5vmax;
+    font: 500 5vmax "Permanent Marker";
+}
+.banner > p{
+    font: 300 3.4vmax "Permanent Marker";
+    color: white;
+}
+
+.banner > a > button{
+    cursor: pointer;
+    color: aqua;
+    background-color: white;
+    margin-bottom: 7vmax;
+    border: 8px solid rgb(236, 201, 212);
+    border-radius: 5px;
+    padding: 1vmax;
+    width: 14vmax;
+    transition: all 0.5s;
+    font-size: 1.1vmax;
+    font-weight: 700;
+    font-family: "Permanent Marker";
+}
+
+.banner > a > button:hover{
+    background-color: #eeeeee;
+}
+
+.banner ::after{
+    content:" ";
+    width:100vw;
+    height:100vmin;
+    background-color:whitesmoke;
+    position: absolute;
+    top:0%;
+    left:0;
+    max-width:100%;
+    clip-path: polygon(100% 65%, 0 100%, 100% 100%);
+}
+
+.homeheading{
+    text-align: center;
+    font-family:"Permanent Marker";
+    font-size: 1.5vmax;
+    border-bottom: 1px solid black;
+    width: 20vmax;
+    padding: 1vmax;
+    margin:5vmax auto;
+    color: rgb(100, 99, 99);
+    
+}
+.container{
+    display: flex;
+    margin:2vmax auto;
+    width:68vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+.productCard{
+    width: 12.5vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(170, 222, 57);
+    margin: 5vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+}
+
+.productCard > img{
+    width: 12.5vmax;
+    margin-left: 0px;
+    margin-right: 6px;
+
+    
+}
+
+.productCard > div{
+    margin:0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0vmax;
+}
+
+.productCard > div > span{
+    margin:0.5vmax;
+    font : 300 0.7vmax "Bree Serif";
+}
+
+.productCard > p{
+    font-family: "Indie Flower";
+    font-size: 1.4vmax;
+    font-weight: 800;
+    color: hotpink;
+    margin-bottom: 0;
+    text-align: center;
+}
+.productCardSpan {
+    margin: 0.5vmax;
+    font: 300 0.7vmax "Roboto";
+  }
+
+.productCard > span{
+    margin:0.5vmax 0vmax;
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.productCard:hover{
+    box-shadow: 0 0 10px purple;
+    transform: translateY(-1vmax);
+}
+
+@media screen and (max-width:600px) {
+
+    .productCard > p{
+        font-size: 1.7vmax;
+
+    }
+
+    .productCard > div{
+        margin:0vmax;
+        display:block;
+    }
+
+    .productCard > span{
+        font-size: 1.5vmax;
+    }
+    .productCard > div > span{
+        margin :0 0.5vmax;
+        font : 300 0.7vmax "Bree Serif";
+    }
+    
+}

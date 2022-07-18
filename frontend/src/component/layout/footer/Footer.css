@@ -1,0 +1,86 @@
+footer{
+    margin-top : 16vmax;
+    padding: 2vmax;
+    background-color:#1a1515;
+    color: white;
+    display:flex;
+    align-items: center;
+
+
+}
+.fb{
+    height:1vmax;
+}
+
+.leftFooter{
+    display:flex;
+    width :20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.leftFooter > h4{
+    text-align: center;
+    font-family: "Permanent Marker";
+    font-size: 2.5vmax;
+    font-weight: bolder;
+    color: purple;
+    margin-bottom: 1vmax;
+}
+
+.leftFooter > img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor:pointer;
+}
+
+.midFooter{
+    width:60%;
+    text-align: center;
+
+}
+.midFooter > h1{
+    font-size: 4vmax;
+    font-family: "Permanent Marker";
+    color: rgb(234, 217, 32);
+    margin-top: -1vmax;
+
+}
+
+.midFooter > p{
+    width: 60%;
+    text-align: center;
+    margin: 0.5vmax auto;
+    font-family: cursive;
+    font-size: 18px;
+
+}
+
+.rightFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightFooter > h4{
+    font-family: "Permanent Marker";
+    font-size: 2vmax;
+    text-decoration: underline;
+    margin-bottom: 3vmax;
+    color: #b68ce4;
+}
+
+.rightFooter > a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: 'Tapestry', cursive;
+    color: #b68ce4;
+    margin: 0.5vmax;
+    transition: all 0.5s;
+}
+
+.rightFooter > a:hover{
+    color: pink;
+}
+

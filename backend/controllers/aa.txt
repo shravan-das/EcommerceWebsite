@@ -1,0 +1,35 @@
+{
+    "shippingInfo":{
+        "address":"haridwar",
+        "city": "Haridwar",
+        "state": "Uttrakhand",
+        "country":"India",
+        "pincode":23456,
+        "phonenumber":7088941608
+        
+    },
+
+    "orderitems":[
+        {
+            
+             "name":"product1",
+             "price":200000,
+             "quantity":5,
+             "image":"sampleimage",
+             "product":"6281556f6ce1e6ec17a60fd5"
+               
+
+            
+        }
+    ],
+    "paymentinfo":{
+        "id":"sample paymentinfo",
+        "status":"succeeded"
+    },
+
+    
+    "itemsprice":1200000000,
+    "taxprice":200,
+    "shippingprice":2000000000,
+    "totalprice":22220
+}

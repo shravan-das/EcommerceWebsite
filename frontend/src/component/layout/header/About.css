@@ -1,0 +1,77 @@
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.abouttext{
+    color: white;
+    width: 11vmax;
+    padding: 24vmax 10vmax;
+
+}
+.abouttext > h1{
+    color: white;
+    font-size: 100px;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+    width: 51vmax;
+    font-family: "Bree Serif";
+}
+
+.abouttext >h5{
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    font-family: 'Fredoka One';
+    width: 50vmax;
+}
+
+.abouttext >p{
+    padding: 5px 4px;
+    width: 26vmax;
+}
+
+.Aboutimage{
+    width: 431px;
+    margin: 12vmax 3vmax;
+    height: 54vmax;
+}
+
+
+.main{
+    width: 1413px;
+    max-width: 96%;
+    margin: 140px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.designer{
+    color: red;
+}
+
+.abouttext >p{
+    color: pink;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 30px;
+    margin-bottom: 45px;
+
+}
+

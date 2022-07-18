@@ -1,0 +1,71 @@
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+
+.contact{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+}
+
+.contacttext{
+    
+    width: 11vmax;
+    padding: 24vmax 10vmax;
+
+}
+.contacttext > h1{
+    color: black;
+    font-size: 100px;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+    width: 51vmax;
+    font-family: "Bree Serif";
+}
+
+.contacttext >h5{
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    font-family: 'Fredoka One';
+    width: 50vmax;
+}
+
+.contacttext >p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 30px;
+    margin-bottom: 45px;
+    font-family: 'Indie Flower';
+}
+
+.contactimage{
+    width: 426px;
+    margin: 24vmax 3vmax;
+    height: 20vmax;
+}
+
+
+.maindiv{
+    width: 1413px;
+    max-width: 96%;
+    margin: 140px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+

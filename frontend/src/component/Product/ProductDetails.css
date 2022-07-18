@@ -1,0 +1,316 @@
+.ProductDetails{
+    max-width: 100%;
+    width: 100vw;
+    padding : 6vmax;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+
+}
+
+.ProductDetails > div{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 2vmax;
+   box-sizing: border-box;
+
+   border: 1px solid white;
+}
+
+.ProductDetails > div :last-child{
+    align-items: flex-start;
+
+}
+.detailsblock-1 > h2{
+    color:#121211;
+    font-family: 'Secular One';
+
+}
+
+.detailsblock-1 > p{
+    color: burlywood;
+    font: 200 0.6vmax cursive;
+
+}
+
+.detailsblock2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid purple;
+    border-bottom:1px solid darkorchid;
+    width: 70%;
+    padding: 1vmax 0vmax;
+
+    
+}
+
+.detailsblockspan{
+    color: hotpink;
+    font: 200 0.6vmax cursive;
+}
+
+
+.CarouselImage{
+    width: 25vmax;
+}
+
+.detailsBlock-3{
+    width: 70%;
+}
+
+.detailsBlock-3 > h1{
+    color: #39884a;
+    font-size: 2.5vmax;
+    font-family: "Bree Serif";
+    margin: 1vmax 0;
+}
+
+
+.detailsBlock-3-1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.detailsBlock-3-1-1 > button{
+    border: none;
+    background-color: rgb(178, 233, 232);
+    padding: 1.1vmax;
+    cursor: pointer;
+    color: rgb(30, 26, 30);
+    transition: all 0.5s;
+}
+
+.detailsBlock-3-1-1 > button:hover{
+    background-color: blueviolet;
+}
+
+.detailsBlock-3-1-1 > input{
+    border: none;
+    padding: 1.1vmax;
+    width: 2.5vmax;
+    outline: none;
+    text-align: center;
+    font: 400 1vmax "Roboto";
+    color: burlywood;
+}
+
+.redColor{
+    color: red;
+}
+
+.greenColor{
+    color: green;
+}
+
+.detailsBlock-3-1 > button:last-child{
+    border: none;
+    cursor: pointer;
+    color: rgb(216, 111, 25);
+    background-color: rgb(239, 222, 218);
+    transition: all 0.5s;
+    font:500 0.9vmax "Bree Serif";
+    border-radius:20px;
+    padding: 0.5vmax 1.5vmax;
+    margin: 1vmax;
+    outline: none;
+}
+
+.detailsBlock-3-1 > button:last-child:hover{
+    background-color: rgb(54, 193, 61);
+    color: black;
+}
+
+.detailsBlock-3 >p {
+    font-family: "Bree Serif";
+    font-weight: 400;
+    font-size: 1.5vmax;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:1vmax 0;
+    margin: 2vmax 0;
+    text-align: center;
+}
+
+.detailsblock-4{
+    color: rgb(95 93 97);
+    font-family: 'Permanent Marker';
+}
+
+.detailsblock-4 > p {
+    color: black;
+    font: 200 2vmax purple;
+    font-family: 'Permanent Marker'
+}
+
+.submitreview{
+    border: none;
+    background-color: rgb(252, 252, 252);
+    font: 500 1.5vmax "Bree Serif";
+    border-radius: 20px;
+    padding: 0.9vmax 2vmax;
+    color: purple;
+    margin: 1vmax 0;
+    transition: all 0.5s;
+
+}
+.submitDialog {
+    display: flex;
+    flex-direction: column;
+  }
+  .submitDialogTextArea {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    font: 300 1rem "Roboto";
+  }
+
+.submitreview:hover{
+    background-color: rgb(101, 211, 61);
+    transform: scale(1.1);
+}
+
+.ReviewsHeading{
+    color: black;
+    font-weight: 500;
+    font-size: 2vmax;
+    font-family: 'Permanent Marker';
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: auto;
+    padding: 1vmax;
+    width: 20vmax;
+}
+.ProductReviewCard{
+    flex: none;
+    box-shadow: 0 0 5px solid rgb(18, 14, 14);
+    
+    width: 40vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+}
+.ProductReviewCard > img{
+    width: 5vmax;
+}
+
+.ProductReviewCard > p{
+    color: rgb(28, 147, 160);
+    font-weight: 500;
+    font-size: 1vmax;
+    font-family: "Fredoka One";
+
+}
+
+.reviewCardComment{
+    color: black;
+    font-weight: 500;
+    font-size: 1.3vmax;
+    font-family:"Fredoka One" ;
+
+}
+.noreviews{
+    font: 500;
+    font-size: 2vmax;
+    font-family: cursive;
+    color: grey;
+    text-align: center;
+    margin-top: 5vmax;
+    justify-content: center;
+
+}
+.reviews{
+    display: flex;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .ProductDetails{
+        flex-direction: column;
+        height: unset;
+    }
+
+    .ProductDetails > div:last-child{
+        align-items: center;
+
+    }
+    .detailsblock-1 >h2{
+        font-size: 2.8vmax;
+        text-align: center;
+
+    }
+    .detailsblock-1>p{
+        text-align: center;
+        font-size: 1.8vmax;
+
+    }
+
+    .detailsblock2{
+        justify-content: center;
+
+    }
+
+    .detailsblock2 > span{
+        font-size: 1.5vmax;
+    }
+    .detailsBlock-3 > h1{
+      font: 300 1vmax "Bree Serif" ;
+      text-align: center;        
+    }
+    .detailsBlock-3-1{
+        flex-direction: column;
+    }
+
+    .detailsBlock-3-1-1{
+        padding: 2vmax 0;
+    }
+    .detailsBlock-3-1-1 > button{
+        padding:1vmax;
+        width: 4vmax;
+    }
+
+    .detailsBlock-3-1-1 > input{
+        width: 1.5vmax;
+        width: 2vmax;
+        font: 400 1vmax "Bree Serif";
+
+    }
+    .detailsBlock-3-1 > button:last-child{
+        font:500 0.9vmax "Pacifico";
+    border-radius:20px;
+    padding: 1vmax;
+    margin: 1vmax 0vmax;
+    width: 20px;
+   }
+   .detailsblock-4{
+       font: 500 1vmax "sans-serif";
+   }
+   .detailsblock-4 > p{
+       font: 300 1vmax "sans-serif";
+   }
+   .submitreview{
+       font: 500 1.5vmax "Roboto";
+       padding: 1.5vmax;
+       padding: 20vmax;
+       margin: 3vmax 0;
+       
+   }
+
+    
+}
