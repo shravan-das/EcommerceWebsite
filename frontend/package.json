@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "homepage": "https://ecommerce-website-lo065nm42-shravan-das.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
