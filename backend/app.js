@@ -31,18 +31,11 @@ app.use("/api/v1",product);
 app.use("/api/v1",user);
 app.use("/api/v1",order);
 app.use("/api/v1",payment);
-// Your code
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname,"../frontend/build")));
-  app.get("*", (req, res) => {
+app.use(express.static(path.join(__dirname,"../frontend/build")));
+
+app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
   });  
-}
-// Your code
-
-
-
-
 
 //middlewares for error 
 app.use(errormiddleware);
