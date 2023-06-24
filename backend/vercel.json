@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "name": "ecommerce",
   "builds": [
-    { "src": "../frontend/build", "use": "@vercel/static" },
+    { "src": "../frontend/build", "use": "@vercel/static-build" },
     { "src": "./server.js", "use": "@vercel/node" }
   ],
   "routes": [
     { "src": "/api/.*", "dest": "server.js" },
-    { "src": "/(.*)", "dest": "../frontend/build/index.html" }
+    { "src": "/(.*)", "dest": "../frontend/build/$1" }
   ]
 }
