@@ -102,4 +102,4 @@ Contributions are welcome! If you find any issues or would like to add new featu
 
 This project was inspired by the MERN stack and the need for a robust and user-friendly e-commerce solution. Special thanks to the open-source community for providing invaluable resources and tools.
 
-Feel free to customize and enhance this project to meet your specific requirements. Enjoy building your extraordinary MERN stack e-commerce website!
+Feel free to customize and enhance this project to meet your specific requirement.
