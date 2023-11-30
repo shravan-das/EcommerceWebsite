@@ -1,6 +1,6 @@
 # MERN Stack E-commerce Website
 
-This is an extraordinary e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a comprehensive platform for online shopping, allowing users to browse and purchase a wide range of products.
+This is an e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a comprehensive platform for online shopping, allowing users to browse and purchase a wide range of products.
 
 ## Project Demo
 
