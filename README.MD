@@ -4,8 +4,7 @@ This is an e-commerce website built using the MERN stack (MongoDB, Express.js, R
 
 ## Project Demo
 
-https://github.com/shravan-das/EcommerceWebsite/assets/100745475/fa6fbcd0-9022-45fd-aac8-3f94b7f400ee
-
+https://clipchamp.com/watch/alIzguqRogl
 
 
 
