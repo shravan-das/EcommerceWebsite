@@ -3,8 +3,10 @@
 This is an e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a comprehensive platform for online shopping, allowing users to browse and purchase a wide range of products.
 
 ## Project Demo
+https://github.com/shravan-das/EcommerceWebsite/assets/100745475/7c2080e9-7e11-444c-8e9b-b81157d1f367
 
-https://clipchamp.com/watch/alIzguqRogl
+
+
 
 
 
